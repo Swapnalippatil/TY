@@ -1,0 +1,13 @@
+Start::VerifyFB
+Browser::chrome
+Open::https://www.facebook.com
+verifyTitle::FB
+type::(xpath,//input)::admin
+close
+END
+Start::VerifyFB
+Browser::chrome
+Open::https://www.facebook.com
+verifyTitle::FB
+close
+END

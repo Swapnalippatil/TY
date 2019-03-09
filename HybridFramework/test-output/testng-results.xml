@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-02-08T13:25:28Z" name="Default suite" finished-at="2018-02-08T13:25:48Z" duration-ms="19619">
+    <groups>
+    </groups>
+    <test started-at="2018-02-08T13:25:28Z" name="Default test" finished-at="2018-02-08T13:25:48Z" duration-ms="19619">
+      <class name="com.ty.executor.Driver">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.ty.executor.Driver@7a675056]" started-at="2018-02-08T13:25:28Z" name="openBrowser" finished-at="2018-02-08T13:25:43Z" duration-ms="14397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="testCases(java.lang.String)[pri:0, instance:com.ty.executor.Driver@7a675056]" started-at="2018-02-08T13:25:43Z" name="testCases" data-provider="getTestCaseNames" finished-at="2018-02-08T13:25:48Z" duration-ms="4588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginTestCase]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCases -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ty.executor.Driver@7a675056]" started-at="2018-02-08T13:25:48Z" name="closeBrowser" finished-at="2018-02-08T13:25:48Z" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.ty.executor.Driver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
